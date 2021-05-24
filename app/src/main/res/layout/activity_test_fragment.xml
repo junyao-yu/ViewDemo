@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/mViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"/>
+
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent"
+            android:textColor="@color/color_white"
+            android:layout_weight="1"
+            android:id="@+id/tab1"
+            android:text="tab1"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent"
+            android:textColor="@color/color_white"
+            android:layout_weight="1"
+            android:id="@+id/tab2"
+            android:text="tab2"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent"
+            android:textColor="@color/color_white"
+            android:layout_weight="1"
+            android:id="@+id/tab3"
+            android:text="tab3"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent"
+            android:textColor="@color/color_white"
+            android:layout_weight="1"
+            android:id="@+id/tab4"
+            android:text="tab4"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent"
+            android:textColor="@color/color_white"
+            android:layout_weight="1"
+            android:id="@+id/tab5"
+            android:text="tab5"
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+</FrameLayout>
